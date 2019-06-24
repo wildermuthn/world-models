@@ -1,0 +1,99 @@
+Loading VAE at epoch 1 with test loss 38.95674472473144
+Loading MDRNN at epoch 28 with test loss 0.9927084982887773
+Loading Controller with reward 674.865860291822
+Track generation: 1198..1502 -> 304-tiles track
+Track generation: 1259..1587 -> 328-tiles track
+Track generation: 1131..1418 -> 287-tiles track
+Track generation: 1315..1654 -> 339-tiles track
+Track generation: 1207..1513 -> 306-tiles track
+Track generation: 981..1232 -> 251-tiles track
+retry to generate track (normal if there are not many of this messages)
+Track generation: 1258..1577 -> 319-tiles track
+Track generation: 1411..1768 -> 357-tiles track
+Track generation: 1102..1382 -> 280-tiles track
+Track generation: 1100..1383 -> 283-tiles track
+Track generation: 1129..1415 -> 286-tiles track
+Track generation: 1167..1463 -> 296-tiles track
+Track generation: 1212..1518 -> 306-tiles track
+Track generation: 1173..1471 -> 298-tiles track
+Track generation: 1207..1517 -> 310-tiles track
+Track generation: 1146..1437 -> 291-tiles track
+Track generation: 1162..1456 -> 294-tiles track
+Track generation: 1189..1490 -> 301-tiles track
+Track generation: 872..1098 -> 226-tiles track
+retry to generate track (normal if there are not many of this messages)
+Track generation: 1028..1294 -> 266-tiles track
+Track generation: 1147..1444 -> 297-tiles track
+Track generation: 1143..1433 -> 290-tiles track
+Track generation: 1000..1258 -> 258-tiles track
+Track generation: 1112..1394 -> 282-tiles track
+Track generation: 1081..1362 -> 281-tiles track
+Track generation: 1161..1456 -> 295-tiles track
+Track generation: 1195..1504 -> 309-tiles track
+Track generation: 1134..1428 -> 294-tiles track
+Track generation: 1275..1598 -> 323-tiles track
+Track generation: 1117..1402 -> 285-tiles track
+retry to generate track (normal if there are not many of this messages)
+Track generation: 1092..1369 -> 277-tiles track
+Track generation: 1216..1524 -> 308-tiles track
+Track generation: 1102..1384 -> 282-tiles track
+retry to generate track (normal if there are not many of this messages)
+Track generation: 1384..1734 -> 350-tiles track
+Track generation: 1120..1404 -> 284-tiles track
+Track generation: 1108..1389 -> 281-tiles track
+Track generation: 1168..1464 -> 296-tiles track
+Track generation: 1101..1379 -> 278-tiles track
+Track generation: 1180..1483 -> 303-tiles track
+Track generation: 1110..1392 -> 282-tiles track
+Track generation: 1104..1382 -> 278-tiles track
+retry to generate track (normal if there are not many of this messages)
+Track generation: 1133..1425 -> 292-tiles track
+Track generation: 1166..1471 -> 305-tiles track
+Track generation: 1255..1573 -> 318-tiles track
+Track generation: 1079..1359 -> 280-tiles track
+Track generation: 1248..1564 -> 316-tiles track
+Track generation: 1022..1285 -> 263-tiles track
+retry to generate track (normal if there are not many of this messages)
+Track generation: 1255..1573 -> 318-tiles track
+Track generation: 1001..1256 -> 255-tiles track
+Track generation: 1141..1430 -> 289-tiles track
+Track generation: 1191..1493 -> 302-tiles track
+Track generation: 1066..1336 -> 270-tiles track
+Track generation: 1064..1333 -> 269-tiles track
+Track generation: 1327..1663 -> 336-tiles track
+Track generation: 1323..1658 -> 335-tiles track
+Track generation: 1247..1563 -> 316-tiles track
+Track generation: 1250..1567 -> 317-tiles track
+Track generation: 1132..1419 -> 287-tiles track
+Track generation: 1228..1539 -> 311-tiles track
+Track generation: 1002..1262 -> 260-tiles track
+Track generation: 1136..1424 -> 288-tiles track
+Track generation: 1155..1455 -> 300-tiles track
+Track generation: 1221..1530 -> 309-tiles track
+Track generation: 1268..1589 -> 321-tiles track
+Track generation: 1183..1483 -> 300-tiles track
+Track generation: 1176..1474 -> 298-tiles track
+Track generation: 1073..1344 -> 271-tiles track
+Track generation: 1120..1404 -> 284-tiles track
+Track generation: 998..1259 -> 261-tiles track
+Track generation: 1418..1777 -> 359-tiles track
+Track generation: 1300..1629 -> 329-tiles track
+Track generation: 1094..1377 -> 283-tiles track
+Track generation: 1134..1421 -> 287-tiles track
+Track generation: 1372..1719 -> 347-tiles track
+Track generation: 1247..1563 -> 316-tiles track
+Track generation: 1198..1503 -> 305-tiles track
+Track generation: 1119..1410 -> 291-tiles track
+Track generation: 1036..1299 -> 263-tiles track
+Track generation: 1123..1408 -> 285-tiles track
+Track generation: 1185..1485 -> 300-tiles track
+Track generation: 1151..1443 -> 292-tiles track
+Track generation: 1263..1592 -> 329-tiles track
+Track generation: 1228..1539 -> 311-tiles track
+Track generation: 1107..1392 -> 285-tiles track
+Track generation: 1179..1477 -> 298-tiles track
+Track generation: 1140..1429 -> 289-tiles track
+Track generation: 1229..1540 -> 311-tiles track
+Track generation: 1120..1412 -> 292-tiles track
+Track generation: 1035..1298 -> 263-tiles track
+Track generation: 1053..1320 -> 267-tiles track

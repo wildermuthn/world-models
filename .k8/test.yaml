@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "carracer"
+spec:
+  containers:
+    - name: "shell"
+      image: "gcr.io/overwatch-analysis/carracer"
+      volumeMounts:
+        - mountPath: "/"
+          name: "local-ssd"
+      resources:
+        limits:
+          nvidia.com/gpu: 1
+  volumes:
+    - name: "local-ssd"
+      hostPath:
+        path: "/mnt/disks/ssd0"
+  nodeSelector:
+    cloud.google.com/gke-local-ssd: "true"

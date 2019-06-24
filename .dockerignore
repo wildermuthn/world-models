@@ -1,0 +1,10 @@
+datasets
+logs
+__pycache__
+.pytest_cache
+frames/
+.mypy_cache
+.idea
+*.pyc
+.git
+libcudnn10

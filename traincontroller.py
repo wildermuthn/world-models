@@ -114,7 +114,7 @@ for p_index in range(num_workers):
 ################################################################################
 #                           Evaluation                                         #
 ################################################################################
-def evaluate(solutions, results, rollouts=100):
+def evaluate(solutions, results, rollouts=12):
     """ Give current controller evaluation.
 
     Evaluation is minus the cumulated reward averaged over rollout runs.
@@ -150,7 +150,7 @@ cur_best = None
 ctrl_file = join(ctrl_dir, 'best.tar')
 print("Attempting to load previous best...")
 if exists(ctrl_file):
-    state = torch.load(ctrl_file, map_location={'cuda:0': 'cpu'})
+    state = torch.load(ctrl_file, map_location={'cuda:0': 'cuda:0'})
     cur_best = - state['reward']
     controller.load_state_dict(state['state_dict'])
     print("Previous best was {}...".format(-cur_best))
@@ -160,7 +160,7 @@ es = cma.CMAEvolutionStrategy(flatten_parameters(parameters), 0.1,
                               {'popsize': pop_size})
 
 epoch = 0
-log_step = 3
+log_step = 1
 while not es.stop():
     if cur_best is not None and - cur_best > args.target_return:
         print("Already better than target, breaking...")
@@ -184,8 +184,12 @@ while not es.stop():
         r_list[r_s_id] += r / n_samples
         if args.display:
             pbar.update(1)
+            # index_min = np.argmin(r_list)
+            # best_guess = solutions[index_min]
+            print("Agent {} sample: {}".format(r_s_id, -r))
     if args.display:
         pbar.close()
+
 
     es.tell(solutions, r_list)
     es.disp()
@@ -193,10 +197,10 @@ while not es.stop():
     # evaluation and saving
     if epoch % log_step == log_step - 1:
         best_params, best, std_best = evaluate(solutions, r_list)
-        print("Current evaluation: {}".format(best))
+        print("Current evaluation: {} +-{}".format(-best, std_best))
         if not cur_best or cur_best > best:
             cur_best = best
-            print("Saving new best with value {}+-{}...".format(-cur_best, std_best))
+            print("Saving new best with value {} +-{}...".format(- cur_best, std_best))
             load_parameters(best_params, controller)
             torch.save(
                 {'epoch': epoch,
@@ -204,9 +208,8 @@ while not es.stop():
                  'state_dict': controller.state_dict()},
                 join(ctrl_dir, 'best.tar'))
         if - best > args.target_return:
-            print("Terminating controller training with value {}...".format(best))
+            print("Terminating controller training with value {}...".format(-best))
             break
-
 
     epoch += 1
 

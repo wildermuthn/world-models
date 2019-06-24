@@ -1,0 +1,1004 @@
+ 1290  cd ~/.config
+ 1291  ls
+ 1292  ls -l
+ 1293  cd awesome
+ 1294  man exec
+ 1295  exec awesome
+ 1296  mkdir -p ~/.config/awesome
+ 1297  cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+ 1298  exec awesome
+ 1299  vim ~
+ 1300  vim /etc/xdg/awesome/rc.lua 
+ 1301  ls
+ 1302  cd /etc/xdg/awesome/
+ 1303  ls
+ 1304  vim .
+ 1305  cd ~/ML/projects/world_models/pytorch_1/world-models
+ 1306  ls
+ 1307  cd datasetes
+ 1308  open datasets
+ 1309  open .
+ 1310  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1311  ls
+ 1312  ls -l
+ 1313  mkdir exp_dir
+ 1314  ls
+ 1315  python trainvae.py --logdir exp_dir
+ 1316  conda info --env
+ 1317  conda activate pytorch_1_world_models
+ 1318  python trainvae.py --logdir exp_dir
+ 1319  pip install tqdm
+ 1320  python trainvae.py --logdir exp_dir
+ 1321  pip list
+ 1322  python --version
+ 1323  nvcc --version
+ 1324  python trainvae.py --logdir exp_dir
+ 1325  python
+ 1326  ls /usr/local/cuda
+ 1327  ls -l
+ 1328  cd ..
+ 1329  ls /usr/local/cuda
+ 1330  ls -l /usr/local/cuda*
+ 1331  ls /usr/local
+ 1332  ls -l /usr/local
+ 1333  conda list
+ 1334  where nvcc
+ 1335  whereis nvcc
+ 1336  nvidia-smi
+ 1337  python
+ 1338  echo LD_LIBRARY_PATH
+ 1339  echo $LD_LIBRARY_PATH
+ 1340  echo $CUDNN_LIB_DIR
+ 1341  printenv
+ 1342  vim ~/.bashrcx
+ 1343  vim ~/.bashrc
+ 1344  LD_LIBRARY_PATH=/usr/local/cuda python
+ 1345  ls
+ 1346  ls /usr/local
+ 1347  ls -l /usr/local
+ 1348  mv /usr/local/cuda-9.2 /home/cuda-9.2.backup
+ 1349  sudo mv /usr/local/cuda-9.2 /home/cuda-9.2.backup
+ 1350  ls
+ 1351  nvcc --version
+ 1352  LD_LIBRARY_PATH=/usr/local/cuda-10.0 python
+ 1353  conda list
+ 1354  whereis python
+ 1355  which python
+ 1356  which nvcc
+ 1357  cd /home/wildermuthn/anaconda2/envs/pytorch_1_world_models/
+ 1358  ls
+ 1359  ls -l
+ 1360  cd bin
+ 1361  ls
+ 1362  ls -l
+ 1363  cd python3.6
+ 1364  cd ..
+ 1365  ls
+ 1366  ls -l
+ 1367  cd include/
+ 1368  ls -l
+ 1369  cd ..
+ 1370  ls -l
+ 1371  cd lib
+ 1372  ls
+ 1373  ls -l
+ 1374  ls
+ 1375  cd ..
+ 1376  ls
+ 1377  ls -l
+ 1378  cd x86_64-conda_cos6-linux-gnu/
+ 1379  ll
+ 1380  ls
+ 1381  cd sysroot/
+ 1382  ls
+ 1383  cd lib/
+ 1384  ls
+ 1385  cd ..
+ 1386  ls
+ 1387  cd share
+ 1388  ls
+ 1389  cd ..
+ 1390  ls -l
+ 1391  cd conda-meta
+ 1392  ls
+ 1393  cd ..
+ 1394  ls
+ 1395  cd ..
+ 1396  ls
+ 1397  conda source deactivate
+ 1398  conda deactivate
+ 1399  conda active pytorch_1_world_models
+ 1400  conda activate --help
+ 1401  echo $LD_LIBRARY_PATH
+ 1402  ld
+ 1403  ld --help
+ 1404  ldd /bin/ls
+ 1405  ld --verbose | grep SEARCH_DIR | sed -E 's/("\); |"\);|)(SEARCH_DIR\("=?|$)/\n/g' | head -n -1 | tail -n +2
+ 1406  LD_LIBRARY_PATH=/usr/local/cuda/lib64 ld --verbose | grep SEARCH_DIR | sed -E 's/("\); |"\);|)(SEARCH_DIR\("=?|$)/\n/g' | head -n -1 | tail -n +2
+ 1407  sudo vim /etc/ld.so.conf
+ 1408  vim /etc/ld.so.conf.d
+ 1409  cd /etc/ld.so.conf.d/
+ 1410  ls
+ 1411  ls -l
+ 1412  rm -r cuda-9-2.conf 
+ 1413  ls -l
+ 1414  rm cuda-9-2.conf 
+ 1415  sudo rm cuda-9-2.conf 
+ 1416  ls
+ 1417  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1418  ls
+ 1419  ld --verbose | grep SEARCH_DIR | sed -E 's/("\); |"\);|)(SEARCH_DIR\("=?|$)/\n/g' | head -n -1 | tail -n +2
+ 1420  LD_LIBRARY_PATH=/usr/local/cuda/lib64 ld --verbose | grep SEARCH_DIR | sed -E 's/("\); |"\);|)(SEARCH_DIR\("=?|$)/\n/g' | head -n -1 | tail -n +2
+ 1421  LD_LIBRARY_PATH=/usr/local/cuda/lib64 python
+ 1422  conda info --env
+ 1423  conda activate pytorch_1_world_models
+ 1424  LD_LIBRARY_PATH=/usr/local/cuda/lib64 ld --verbose | grep SEARCH_DIR | sed -E 's/("\); |"\);|)(SEARCH_DIR\("=?|$)/\n/g' | head -n -1 | tail -n +2
+ 1425  LD_LIBRARY_PATH=/usr/local/cuda/lib64 python
+ 1426  LD_LIBRARY_PATH=/usr/local/cuda-10.0/targets/x86_64-linux/lib python
+ 1427  ldconfig
+ 1428  vim /etc/ld.so.cache
+ 1429  ls
+ 1430  ldd python
+ 1431  which python
+ 1432  ldd /home/wildermuthn/anaconda2/envs/pytorch_1_world_models/bin/python
+ 1433  export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64
+ 1434  echo $LD_LIBRARY_PATH
+ 1435  python
+ 1436  gcc --version
+ 1437  glibc --version
+ 1438  glirc --version
+ 1439  uname -r
+ 1440  mv /home/cuda-9.2.backup /usr/local/cuda-9.2
+ 1441  sudo mv /home/cuda-9.2.backup /usr/local/cuda-9.2
+ 1442  cd /usr/local/cuda-9.2/
+ 1443  ls
+ 1444  cd bin
+ 1445  ls
+ 1446  ls -l
+ 1447  ./nvcc
+ 1448  ./nvcc --version
+ 1449  sudo apt-get --help
+ 1450  sudo apt-get check
+ 1451  sudo apt-get check cuda
+ 1452  sudo apt-get changelog cuda
+ 1453  apt list --installed
+ 1454  dpkg --get-selections | grep -v deinstall
+ 1455  dpkg --get-selections | grep cuda
+ 1456  (zcat $(ls -tr /var/log/apt/history.log*.gz); cat /var/log/apt/history.log) 2>/dev/null |   egrep '^(Start-Date:|Commandline:)' |   grep -v aptdaemon |   egrep '^Commandline:'
+ 1457  sudo apt-get --purge remove cuda-9.2
+ 1458  nvidia-smi
+ 1459  cd ..
+ 1460  cd .
+ 1461  .ls
+ 1462  cd ..
+ 1463  ls
+ 1464  cd cuda
+ 1465  ls
+ 1466  cd ..
+ 1467  ls
+ 1468  python
+ 1469  nvidia-smi
+ 1470  nvidia-smi --query-gpu=timestamp,name,pci.bus_id,driver_version,pstate,pcie.link.gen.max,
+ 1471  pcie.link.gen.current,temperature.gpu,utilization.gpu,utilization.memory,
+ 1472  memory.total,memory.free,memory.used --format=csv -l 5
+ 1473  pcie.link.gen.current,temperature.gpu,utilization.gpu,utilization.memory,
+ 1474  nvidia-smi --query-gpu=timestamp,name,pci.bus_id,driver_version,pstate,pcie.link.gen.max,pcie.link.gen.current,temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv -l 5
+ 1475  nvidia-smi --query-gpu=timestamp,name,p, temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv -l 5
+ 1476  nvidia-smi --query-gpu=timestamp,name, temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv -l 5
+ 1477  nvidia-smi --query-gpu=timestamp,name, temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv
+ 1478  nvidia-smi --query-gpu=timestamp,name, temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv -l
+ 1479  nvidia-smi --query-gpu=timestamp,name, tmperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv -l
+ 1480  nvidia-smi --query-gpu=timestamp,name,pci.bus_id,driver_version,pstate,pcie.link.gen.max,pcie.link.gen.current,temperature.gpu,utilization.gpu,utilization.memory,memory.total,memory.free,memory.used --format=csv -l 5
+ 1481  nvidia-smi
+ 1482  pip list
+ 1483  nvcc --version
+ 1484  cd ~/ML/projects/world_models/pytorch_1/
+ 1485  cd world-models/
+ 1486  ls
+ 1487  conda info --env
+ 1488  conda activate pytorch_1_world_models
+ 1489  nvcc --version
+ 1490  nvidia-smi
+ 1491  cat /proc/driver/nvidia/version
+ 1492  suda apt-get --purge remove cuda
+ 1493  sudo apt-get upgrade cuda
+ 1494  sudo apt-get --purge remove cuda
+ 1495  sudo apt-get 
+ 1496  sudo apt-get autoremove
+ 1497  sudo apt-get 
+ 1498  sudo apt-get check
+ 1499  ps aux | lock-frontend
+ 1500  ps aux | grep lock
+ 1501  ps aux | grep dpkg
+ 1502  sudo apt-get check
+ 1503  ps aux | grep -i apt
+ 1504  sudo kill -9 5623
+ 1505  ps aux | grep -i apt
+ 1506  sudo apt-get
+ 1507  sudo apt-get check
+ 1508  sudo apt-get autoremove
+ 1509  sudo dpkg -i /home/wildermuthn/Downloads/cuda-repo-ubuntu1604-10-1-local-10.1.168-418.67_1.0-1_amd64.deb 
+ 1510  sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
+ 1511  sudo apt-key add /var/cuda-repo-10-1-local-10.1.168-418.67/7fa2af80.pub
+ 1512  sudo apt-get update
+ 1513  sudo apt-get install cuda
+ 1514  nvidia-smi
+ 1515  conda decactivate
+ 1516  conda deactivate
+ 1517  nvidia-smi
+ 1518  export PATH=/usr/local/cuda-10.1/bin:/usr/local/cuda-10.1/NsightCompute-2019.1${PATH:+:${PATH}}
+ 1519  nvidia-smi
+ 1520  glxinfo | grep "OpenGL version"
+ 1521  gdebi
+ 1522  sudo apt-get install gdebi
+ 1523  cd ~/Downloads/
+ 1524  ls
+ 1525  wget http://repo.steampowered.com/steam/archive/precise/steam_latest.deb
+ 1526  ls -l
+ 1527  sudo gdebi steam_latest.deb
+ 1528  steam
+ 1529  apt-get install steam
+ 1530  ps aux | grep dpkg
+ 1531  ps aux | grep apt
+ 1532  nvidia-smi
+ 1533  nvcc --version
+ 1534  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1535  ls
+ 1536  conda info --env
+ 1537  conda activate pytorch_1_world_models
+ 1538  python
+ 1539  ls
+ 1540  python trainvae.py --logdir exp_dir
+ 1541  ls
+ 1542  cd datasetrs
+ 1543  cd datasets
+ 1544  ls
+ 1545  cd carracing
+ 1546  ls
+ 1547  cd ..
+ 1548  python trainvae.py --logdir exp_dir
+ 1549  python trainmdrnn.py --logdir exp_dir
+ 1550  python test_controller.py --logdir exp_dir
+ 1551  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display
+ 1552  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 4
+ 1553  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 6
+ 1554  nvidia-smi
+ 1555  cd ~/ML/projects/world_models/pytorch_1/
+ 1556  cd world-models/
+ 1557  ls
+ 1558  echo "conda activate pytorch_1_world_models" > activate.sh
+ 1559  chmod +x activate.sh 
+ 1560  ./activate.sh 
+ 1561  bash -e activate.sh 
+ 1562  conda activate pytorch_1_world_models
+ 1563  ls
+ 1564  pip list
+ 1565  cd pegl/
+ 1566  python test.py 
+ 1567  ps aux | grep intellij
+ 1568  kill -9 3353
+ 1569  cd ..
+ 1570  ls
+ 1571  python data/generation_script.py --rollouts 2 --rootdir datasets/carracing --threads 7
+ 1572  cd datasets/
+ 1573  ls
+ 1574  mkdir carracing3
+ 1575  cd ..
+ 1576  python data/generation_script.py --rollouts 8 --rootdir datasets/carracing3 --threads 7
+ 1577  python data/generation_script.py --rollouts 7 --rootdir datasets/carracing3 --threads 8
+ 1578  python data/generation_script.py --rollouts 6 --rootdir datasets/carracing3 --threads 10
+ 1579  python data/generation_script.py --rollouts 1 --rootdir datasets/carracing3 --threads 7
+ 1580  mkdir exp_dir2
+ 1581  ls
+ 1582  python trainvae.py --logdir exp_dir2
+ 1583  ls datasets
+ 1584  cd datasets
+ 1585  ls
+ 1586  cd carracing
+ 1587  cd ..
+ 1588  ls
+ 1589  cd carracing3
+ 1590  ls
+ 1591  cd thread_0
+ 1592  ls
+ 1593  ls -0l
+ 1594  ls -l
+ 1595  ls
+ 1596  cd ..
+ 1597  python trainvae.py --logdir exp_dir2
+ 1598  python trainvae.py --logdir exp_dir
+ 1599  python data/generation_script.py --rollouts 1 --rootdir datasets/carracing3 --threads 7
+ 1600  python trainvae.py --logdir exp_dir
+ 1601  python trainvae.py --logdir exp_dir2
+ 1602  cd datasets
+ 1603  ls
+ 1604  ls -l
+ 1605  python trainvae.py --logdir exp_dir2
+ 1606  cd ..
+ 1607  python trainvae.py --logdir exp_dir2
+ 1608  mv datasets/carracing2 datasets/cc
+ 1609  python trainvae.py --logdir exp_dir2
+ 1610  python trainvae.py --logdir exp_dir
+ 1611  python trainvae.py --logdir exp_dir2
+ 1612  python data/generation_script.py --rollouts 1 --rootdir datasets/carracing3 --threads 7
+ 1613  python data/generation_script.py --rollouts 5 --rootdir datasets/carracing3 --threads 7
+ 1614  python data/generation_script.py --rollouts 50 --rootdir datasets/carracing3 --threads 1
+ 1615  python -m cProfile data/generation_script.py --rollouts 50 --rootdir datasets/carracing3 --threads 1
+ 1616  python data/generation_script.py --rollouts 50 --rootdir datasets/carracing3 --threads 1
+ 1617  nvidia-smi -l
+ 1618  echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+ 1619  nvidia-smi
+ 1620  cd ~/Desktop/pycharm-2019.1.3/bin/
+ 1621  ls
+ 1622  ./pycharm.sh 
+ 1623  conda activate ffjord
+ 1624  python
+ 1625  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1626  ls
+ 1627  conda activate pytorch_1_world_models
+ 1628  mkdir exp_dir3
+ 1629  python trainvae.py --logdir exp_dir3
+ 1630  python trainvae.py --logdir exp_dir
+ 1631  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display
+ 1632  ps aux | grep python
+ 1633  kill -9 1114
+ 1634  ps aux | grep python
+ 1635  kill -9 1114
+ 1636  ps aux | grep python
+ 1637  kill -9 1114
+ 1638  ps aux | grep python
+ 1639  python traincontroller.py --logdir exp_dir --n-samples 1 --pop-size 2 --target-return 950 --display
+ 1640  ps aux | grep python
+ 1641  python traincontroller.py --logdir exp_dir --n-samples 1 --pop-size 2 --target-return 950 --display
+ 1642  ps aux | grep python
+ 1643  kill -9 21881
+ 1644  kill -9 21882
+ 1645  ps aux | grep python
+ 1646  kill -9 21878
+ 1647  ps aux | grep python
+ 1648  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1649  ls
+ 1650  cd datasets/
+ 1651  ls
+ 1652  cd carracing
+ 1653  ls
+ 1654  find . -type f | wc -l
+ 1655  python data/generation_script.py --rollouts 1300 --rootdir datasets/carracing --threads 7
+ 1656  cd ..
+ 1657  python data/generation_script.py --rollouts 1300 --rootdir datasets/carracing --threads 7
+ 1658  conda activate pytorch_1_world_models
+ 1659  python data/generation_script.py --rollouts 1300 --rootdir datasets/carracing --threads 7
+ 1660  find . -type f | wc -l
+ 1661  ls
+ 1662  cd datasets
+ 1663  ls
+ 1664  cd carracing
+ 1665  ls
+ 1666  find . -type f | wc -l
+ 1667  cd thread_0
+ 1668  ls
+ 1669  cd ..
+ 1670  ls
+ 1671  cd old_rollouts/
+ 1672  ls
+ 1673  find -maxdepth 1 -type d -print0
+ 1674  find -type d -print0\
+ 1675  find -type d -print0
+ 1676  find -type d -print
+ 1677  find -type d
+ 1678  find -maxdepth 1 -type d -print0
+ 1679  find -maxdepth 1 -type d -print
+ 1680  man rename
+ 1681  find -maxdepth 1 -type d -print0 | xargs -0 rename s/thread/old_thread/
+ 1682  ls
+ 1683  mv * ../
+ 1684  cd ..
+ 1685  ls -l
+ 1686  rm -r old_rollouts
+ 1687  ls -l
+ 1688  ls
+ 1689  cd ..
+ 1690  ls
+ 1691  cd ..
+ 1692  ls
+ 1693  rm -rf exp_dir2
+ 1694  ls
+ 1695  mkdir exp_dir2
+ 1696  python trainvae.py --logdir exp_dir2
+ 1697  cd ..
+ 1698  ls
+ 1699  cd ..
+ 1700  ls
+ 1701  mkdir repos
+ 1702  cd repos
+ 1703  ls
+ 1704  git clone https://github.com/rtqichen/ffjord
+ 1705  cd ffjord/
+ 1706  ls
+ 1707  conda deactivate
+ 1708  conda --help
+ 1709  conda create ffjord
+ 1710  conda create --help
+ 1711  conda create -n ffjord
+ 1712  conda activate ffjord
+ 1713  ls
+ 1714  ls -l
+ 1715  nvidia-smi
+ 1716  python --version
+ 1717  python train_toy.py --data 8gaussians --dims 64-64-64 --layer_type concatsquash --save experiment1
+ 1718  conda install matplotlib
+ 1719  python train_toy.py --data 8gaussians --dims 64-64-64 --layer_type concatsquash --save experiment1
+ 1720  conda install torch
+ 1721  conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
+ 1722  python train_toy.py --data 8gaussians --dims 64-64-64 --layer_type concatsquash --save experiment1
+ 1723  conda install sklearn
+ 1724  pip install sklearn
+ 1725  python train_toy.py --data 8gaussians --dims 64-64-64 --layer_type concatsquash --save experiment1
+ 1726  git clone https://github.com/rtqichen/torchdiffeq.git
+ 1727  cd torchdiffeq/
+ 1728  pip install -e .
+ 1729  cd ..
+ 1730  python train_toy.py --data 8gaussians --dims 64-64-64 --layer_type concatsquash --save experiment1
+ 1731  python train_toy.py --data 8gaussians --dims 64-64-64 --layer_type concatsquash --data 2spirals --save experiment2
+ 1732  nvidia-smi
+ 1733  nvidia-smi -l
+ 1734  cd ~/Desktop/pycharm-2019.1.3/bin/
+ 1735  ./pycharm.sh 
+ 1736  nvidia-smi
+ 1737  ps aux | grep python
+ 1738  nvidia-smi
+ 1739  ps aux | grep python
+ 1740  nvidia-smi
+ 1741  cd ~/ML/projects/world_models/pytorch_1/
+ 1742  ls
+ 1743  cd world-models/
+ 1744  ls
+ 1745  conda activate pytorch_1_world_models
+ 1746  python trainmdrnn.py --logdir exp_dir
+ 1747  python trainvae.py --logdir exp_dir
+ 1748  python trainmdrnn.py --logdir exp_dir
+ 1749  python trainvae.py --logdir exp_dir
+ 1750  python trainmdrnn.py --logdir exp_dir
+ 1751  apt list
+ 1752  apt-get remove --purge steam
+ 1753  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display
+ 1754  python traincontroller.py --logdir exp_dir --n-samples 2 --pop-size 4 --target-return 950 --display
+ 1755  ps aux | grep python
+ 1756  ps aux | grep py
+ 1757  kill -9 22738
+ 1758  ps aux | grep py[B
+ 1759  ps aux | grep python
+ 1760  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display
+ 1761  top
+ 1762  ps aux | grep wildermuth
+ 1763  top
+ 1764  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display
+ 1765  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 8
+ 1766  python traincontroller.py --logdir exp_dir --n-samples 1 --pop-size 8 --target-return 950 --display --max-workers 8
+ 1767  python traincontroller.py --logdir exp_dir --n-samples 1 --pop-size 8 --target-return 950 --max-workers 8
+ 1768  python traincontroller.py --logdir exp_dir --n-samples 1 --pop-size 8 --target-return 950 --display --max-workers 1
+ 1769  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 8
+ 1770  ython traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 8
+ 1771  ps aux | grep python
+ 1772  ython traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 8
+ 1773  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 8
+ 1774  ps aux | grep python
+ 1775  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 8
+ 1776  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display
+ 1777  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 1
+ 1778  python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display --max-workers 8
+ 1779  nvidia-smi
+ 1780  python traincontroller.py --logdir exp_dir --n-samples 3 --pop-size 4 --target-return 950 --display
+ 1781  python traincontroller.py --logdir exp_dir --n-samples 1 --pop-size 64 --target-return 950 --display --max-workers 8
+ 1782  python traincontroller.py --logdir exp_dir --n-samples 3 --pop-size 64 --target-return 950 --display --max-workers 8
+ 1783  python traincontroller.py --logdir exp_dir --n-samples 1 --pop-size 64 --target-return 950 --display --max-workers 8
+ 1784  python traincontroller.py --logdir exp_dir --n-samples 16 --pop-size 64 --target-return 950 --display --max-workers 8
+ 1785  python traincontroller.py --logdir exp_dir --n-samples 16 --pop-size 64 --target-return 950 --display --max-workers 12
+ 1786  python traincontroller.py --logdir exp_dir --n-samples 16 --pop-size 64 --target-return 950 --display --max-workers 16
+ 1787  python traincontroller.py --logdir exp_dir --n-samples 14 --pop-size 64 --target-return 950 --display --max-workers 14
+ 1788  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1789  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1
+ 1790  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1791  ython traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1792  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1793  nvidia-smi
+ 1794  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1795  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1796  activate pytorch_1_world models
+ 1797  conda activate pytorch_1_world models
+ 1798  conda activate pytorch_1_world_models
+ 1799  python traincontroller.py --logdir exp_dir --n-samples 6 --pop-size 64 --target-return 950 --display --max-workers 12
+ 1800  python traincontroller.py --logdir exp_dir --n-samples 16 --pop-size 1 --target-return 950 --display --max-workers 1
+ 1801  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1
+ 1802  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1803  python traincontroller.py --logdir exp_dir --n-samples 16 --pop-size 1 --target-return 950 --display --max-workers 1
+ 1804  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1
+ 1805  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1806  conda activate pytorch_1_world_models
+ 1807  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1808  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1
+ 1809  python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 12
+ 1810  cd ~/ML/repos/
+ 1811  ls
+ 1812  cd ..
+ 1813  ls
+ 1814  cd docker
+ 1815  ls
+ 1816  cd world_models
+ 1817  ls
+ 1818  idea Dockerfile 
+ 1819  gcloud
+ 1820  glcoud --update
+ 1821  gcloud update
+ 1822  gcloud --update
+ 1823  gcloud
+ 1824  gcloud components update
+ 1825  gcloud config
+ 1826  gcloud config get-value compute/zone
+ 1827  gcloud config get-value project
+ 1828  kubectl 
+ 1829  gcloud components install kubectl
+ 1830  kubectl
+ 1831  kubectl config
+ 1832  kubectl config get-contexts
+ 1833  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 1834  ls
+ 1835  pip list
+ 1836  conda activate pytorch_1_world_models
+ 1837  pip list
+ 1838  ls
+ 1839  conda list
+ 1840  pip list
+ 1841  gcloud container clusters get-credentials cuda-10
+ 1842  gcloud auth login
+ 1843  gcloud container clusters get-credentials cuda-10
+ 1844  kubectl get nodes
+ 1845  vim ~/.bashrc
+ 1846  source ~/.bashrc
+ 1847  k get nodes
+ 1848  k config get-contexts
+ 1849  k config 
+ 1850  k config rename-context gke_overwatch-analysis_us-central1-a_cuda-10 cuda10
+ 1851  k config get-context
+ 1852  k config get-contexts
+ 1853  k get nodes --all
+ 1854  k get nodes --all-namespaces
+ 1855  kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/stable/nvidia-driver-installer/cos/daemonset-preloaded.yaml
+ 1856  k get daemonsets
+ 1857  k get daemon
+ 1858  k get daemonsets --all-namespaces
+ 1859  k apply -f .k8/test.yaml
+ 1860  k get pods
+ 1861  kget nodes
+ 1862  k get nodes
+ 1863  k get pods
+ 1864  k get pods --watch
+ 1865  k get nodes
+ 1866  k get pods --watch
+ 1867  k get nodes
+ 1868  k delete node/gke-cuda-10-micro-pool-1-1d0ba5d9-j7tm
+ 1869  k get nodes
+ 1870  k get pods
+ 1871  k describe pod/my-gpu-pod
+ 1872  k get pods
+ 1873  k get pods --all-namespaces
+ 1874  gcloud container clusters get-credentials gpu-cluster-1 --zone us-central1-a --project overwatch-analysis
+ 1875  ls
+ 1876  conda activate pytorch_1_world_models
+ 1877  ls
+ 1878  cd .k8
+ 1879  ls
+ 1880  cd ..
+ 1881  ls
+ 1882  conda env export > environment.yml
+ 1883  pip freeze > requirements.txt
+ 1884  cat requirements.txt 
+ 1885  pip list
+ 1886  conda list
+ 1887  ls
+ 1888  k get ndoes
+ 1889  k get-contexts
+ 1890  k config get-contexts
+ 1891  gcloud container clusters get-credentials gpu-cluster-1
+ 1892  k get nodes
+ 1893  kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/stable/nvidia-driver-installer/cos/daemonset-preloaded.yaml
+ 1894  ls
+ 1895  k apply -f .k8/test.yaml 
+ 1896  k get pods
+ 1897  k get pods --watc
+ 1898  k get pods --watch
+ 1899  k get deployments
+ 1900  k delete pod/my-gpu-pod
+ 1901  k get pods
+ 1902  k get nodes
+ 1903  k describe node gke-gpu-cluster-1-gpu-pool-1-8831eaed-jvk2
+ 1904  k apply -f .k8/test.yaml 
+ 1905  k get pods
+ 1906  k get pods --watch
+ 1907  k get pods
+ 1908  k delete pod/my-gpu-pod
+ 1909  k apply -f .k8/test.yaml 
+ 1910  /bin/sh sleep 10
+ 1911  sleep 10
+ 1912  k apply -f .k8/test.yaml 
+ 1913  k get pods
+ 1914  k get pods --watch
+ 1915  k get pod my-gpu-pod
+ 1916  k exec -it my-gpu-pod -- /bin/bash
+ 1917  k get pods
+ 1918  k delete pod my-gpu-pod
+ 1919  gcloud container clusters get-credentials gpu-cluster-2
+ 1920  k config get-contexts
+ 1921  k get nodes
+ 1922  k apply -f .k8/test.yaml 
+ 1923  k get pods
+ 1924  k get pods --watch
+ 1925  kubectl apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/container-engine-accelerators/stable/nvidia-driver-installer/cos/daemonset-preloaded.yaml
+ 1926  k get pods --watch
+ 1927  k exec -it my-gpu-pod -- /bin/bash
+ 1928  k delete pod my-gpu-pod
+ 1929  k get nodes
+ 1930  k apply -f .k8/test.yaml 
+ 1931  k get pods
+ 1932  2:18
+ 1933  k get pods --watch
+ 1934  2:21
+ 1935  k delete pod my-gpu-pod
+ 1936  k get nodes --watch
+ 1937  k get node/gke-gpu-cluster-2-gpu-pool-1-882386ac-83s8 --watch
+ 1938  gcloud beta container clusters resize gpu-cluster-2 --node-pool gpu-pool-1 --nodes 1
+ 1939  gcloud beta container clusters resize gpu-cluster-2 --node-pool gpu-pool-1 --num-nodes 1
+ 1940  k apply -f .k8/test.yaml 
+ 1941  k get pods --watch
+ 1942  k exec -it my-gpu-pod -- /bin/bash
+ 1943  k delete pod my-gpu-pod
+ 1944  gcloud beta container clusters resize gpu-cluster-2 --node-pool gpu-pool-1 --num-nodes 0
+ 1945  ls
+ 1946  docker build --help
+ 1947  docker build -t tmp .
+ 1948  ls
+ 1949  cd ..
+ 1950  ls
+ 1951  docker build -t tmp .\
+ 1952  docker build -t tmp .
+ 1953  ls /tmp
+ 1954  cp -r ~/ML/docker/world_models/libcudnn7 ~/ML/data/libcudnn7
+ 1955  ls ~/ML/data/
+ 1956  cp -r ~/ML/docker/world_models/libcudnn7 ~/ML/data/libcudnn7
+ 1957  docker build -t tmp .
+ 1958  ls
+ 1959  ln -s /media/wildermuthn/ubuntu-space/ml-data ml-data
+ 1960  ls
+ 1961  docker build -t tmp .
+ 1962  ls
+ 1963  rm ml-data
+ 1964  ls
+ 1965  ln -s /media/wildermuthn/ubuntu-space/ml-data/libcudnn7 libcudnn7
+ 1966  ls
+ 1967  docker build -t tmp .
+ 1968  ls
+ 1969  rm libcudnn7
+ 1970  cp -r ~/ML/data/libcudnn7 .
+ 1971  ls
+ 1972  docker build -t tmp .
+ 1973  ls
+ 1974  docker build -t tmp .
+ 1975  docker run -i -t -p 8888:8888 continuumio/miniconda3 /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+ 1976  docker run -i -t -p 8888:8888 tmp /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+ 1977  docker run -it -rm -p 8888:8888 tmp /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+ 1978  docker run -it --rm -p 8888:8888 tmp /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+ 1979  ls
+ 1980  mv world-models/environment.yml .
+ 1981  ls
+ 1982  docker build -t tmp .
+ 1983  conda create --help
+ 1984  docker build -t tmp .
+ 1985  conda env --help
+ 1986  ls
+ 1987  cd world-models/
+ 1988  ls
+ 1989  mkdir shared
+ 1990  ls
+ 1991  cd ..
+ 1992  ls
+ 1993  docker build -t tmp .
+ 1994  ls
+ 1995  ks
+ 1996  ls
+ 1997  mv * world-models/
+ 1998  ls
+ 1999  cd world-models/
+ 2000  docker build -t tmp .
+ 2001  cd ~/ML/projects/world_models/pytorch_1/
+ 2002  cd world-models/
+ 2003  ;s
+ 2004  ls
+ 2005  docker build -t tmp .
+ 2006  docker run -it --rm tmp
+ 2007  docker run -it --rm tmp -- source activate ml
+ 2008  docker run -it --rm tmp -- conda
+ 2009  docker run -it --rm tmp -- conda activate ml
+ 2010  conda 
+ 2011  conda activate
+ 2012  docker run -it --rm tmp -- /bin/bash
+ 2013  docker run --runtime=nvidia -it --rm tmp -- /bin/bash
+ 2014  docker build -t tmp .
+ 2015  docker run -it --rm tmp
+ 2016  docker run -it --rm tmp -- source activate ml
+ 2017  docker run -it --rm tmp -- /bin/bash -c source active ml
+ 2018  docker run -it --rm tmp -- /bin/bash -c source active ml && conda info --env
+ 2019  docker run -it --rm tmp -- /bin/bash -c source active ml & conda info --env
+ 2020  docker run -it --rm tmp -- /bin/bash -c conda info --env
+ 2021  docker run --rm tmp -- /bin/bash -c conda info --env
+ 2022  docker run --rm tmp -- /bin/bash -c echo hi
+ 2023  docker run --rm tmp -- echo "hi
+
+"
+ 2024  docker run --rm tmp -- echo "ha"
+ 2025  docker run -it --rm tmp -- echo "ha"
+ 2026  docker run -it --rm tmp -- python
+ 2027  docker run -it --rm tmp
+ 2028  docker build -t tmp .
+ 2029  docker image prune
+ 2030  docvker image prune -a
+ 2031  docker image prune -a
+ 2032  docker image ls --all
+ 2033  docker image prune -a --filter "until=24h"
+ 2034  docker image prune --help
+ 2035  docker container ls
+ 2036  docker container ls --all
+ 2037  docker container prune --filter "until=24h"
+ 2038  docker volume prune --filter "label!=keep"
+ 2039  sudo idea /etc/default/docker
+ 2040  sudo idea /etc/sysctl.conf
+ 2041  systemctl --help
+ 2042  systemctl list-units
+ 2043  systemctl show --help
+ 2044  cd /etc
+ 2045  ls
+ 2046  cd system.d
+ 2047  cd sysctl.d/
+ 2048  ls
+ 2049  ls -l
+ 2050  vim .
+ 2051  df -h
+ 2052  sudo vim /etc/default/docker
+ 2053  systemctl restart docker
+ 2054  docker
+ 2055  docker info
+ 2056  sudo vim /var/lib/docker
+ 2057  service docker stop
+ 2058  docker
+ 2059  ps faux
+ 2060  ps aux | grep docker
+ 2061  kill -9 9779
+ 2062  ps aux | grep docker
+ 2063  docker
+ 2064  service docker stop
+ 2065  docker
+ 2066  docker image ls
+ 2067  docker info
+ 2068  service docker start
+ 2069  docker info
+ 2070  sudo systemctl daemon-reload
+ 2071  sudo systemctl restart docker
+ 2072  sudo systemctl enable docker
+ 2073  docker info
+ 2074  touch /etc/docker/daemon.json
+ 2075  sudo touch /etc/docker/daemon.json
+ 2076  sudo vim /etc/docker/daemon.json
+ 2077  sudo systemctl daemon-reload
+ 2078  sudo systemctl restart docker
+ 2079  sudo systemctl enable docker
+ 2080  sudo service docker stop
+ 2081  sudo systemctl daemon-reload
+ 2082  sudo systemctl restart docker
+ 2083  sudo systemctl enable docker
+ 2084  docker info
+ 2085  ls
+ 2086  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 2087  history
+ 2088  docker build -t tmp .
+ 2089  docker --runtime-nvidia run -it --rm tmp -- nvidia-smi
+ 2090  docker --runtime=nvidia run -it --rm tmp -- nvidia-smi
+ 2091  docker run --runtime=nvidia -it --rm tmp -- nvidia-smi
+ 2092  docker run --runtime=nvidia -it --rm tmp -- /bin/bash
+ 2093  docker --version
+ 2094  docker info
+ 2095  docker run hello-world
+ 2096  docker run --runtime=nvidia hello-world
+ 2097  docker run --runtime=nvidia hello-world -- nvidia-smi
+ 2098  docker run --runtime=nvidia hello-world -- /bin/bash
+ 2099  docker run --runtime=nvidia -it hello-world -- /sh
+ 2100  docker run --runtime=nvidia -it hello-world sh
+ 2101  docker run --runtime=nvidia -it hello-world /bin/bash
+ 2102  docker run --runtime=nvidia -it hello-world bash
+ 2103  docker run --runtime=nvidia -it --rm tmp -- /bin/bash
+ 2104  docker build -t tmp .
+ 2105  docker run --runtime=nvidia -it --rm tmp -- /bin/bash
+ 2106  sudo apt-get remove docker docker-engine docker.io containerd runc
+ 2107  sudo vim /var/lib/docker
+ 2108  sudo vim /etc/default/docker
+ 2109  sudo service docker stop
+ 2110  sudo vim /etc/docker/daemon.json
+ 2111  sudo systemctl daemon-reload
+ 2112  restart docker
+ 2113  sudo service docker start
+ 2114  sudo systemctl daemon-reload
+ 2115  sudo systemctl restart docker
+ 2116  sudo systemctl enable docker
+ 2117  docker info
+ 2118  cd /media/wildermuthn/ubuntu-space/
+ 2119  ls
+ 2120  cd docker
+ 2121  ls
+ 2122  cd ..
+ 2123  ls
+ 2124  rm -rf docker
+ 2125  sudo rm -rf docker
+ 2126  docker info
+ 2127  docker purge --help
+ 2128  docker image purge --help
+ 2129  docker image prune --help
+ 2130  docker rm --help
+ 2131  docker image rm --help
+ 2132  docker built -t tmp .
+ 2133  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 2134  ls
+ 2135  docker build -t tmp .
+ 2136  sudo su -
+ 2137  docker build -t tmp .
+ 2138  docker rmi $(docker images -a -q)
+ 2139  docker rm $(docker ps -a -f status=exited -q)
+ 2140  docker stop $(docker ps -a -q)
+ 2141  docker rm $(docker ps -a -q)
+ 2142  docker volume ls
+ 2143  docker volume ls --all
+ 2144  docker image ls
+ 2145  docker rm --help
+ 2146  docker rmi $(docker images -a -q)
+ 2147  docker system prune
+ 2148  docker system prune --all
+ 2149  docker system prune -a
+ 2150  docker system prune --help
+ 2151  docker system prune --volumes --all
+ 2152  docker network ls
+ 2153  docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+ 2154  docker rmi $(docker images | grep "none" | awk '/ / { print $3 }')
+ 2155  docker rm $(docker ps -qa --no-trunc --filter "status=exited")
+ 2156  doicker images
+ 2157  docker iamges
+ 2158  docker images
+ 2159  docker update
+ 2160  docker kill --all
+ 2161  docker ps --all
+ 2162  dock container list
+ 2163  docker container list
+ 2164  docker container list --all
+ 2165  docker iamge list
+ 2166  docker images ls
+ 2167  docker images ls --all
+ 2168  docker system info
+ 2169  service docker stop
+ 2170  docker
+ 2171  docker ps
+ 2172  service docker start
+ 2173  docker build -t tmp .
+ 2174  df
+ 2175  df -h
+ 2176  docker run --runtime=nvidia -it hello-world bash
+ 2177  docker run --runtime=nvidia -it --rm tmp
+ 2178  docker run --runtime=nvidia -it --rm tmp nvidia-smi
+ 2179  docker run --runtime=nvidia -it --rm tmp xvfb-run -s "-screen 0 1400x900x24" python traincontroller.py --logdir exp_dir --n-samples 4 --pop-size 4 --target-return 950 --display
+ 2180  docker ps
+ 2181  docker run --runtime=nvidia -it --rm tmp
+ 2182  docker run -it --rm     --env="DISPLAY=$DISPLAY"     --env="QT_X11_NO_MITSHM=1"     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"     -env="XAUTHORITY=$XAUTH"     --volume="$XAUTH:$XAUTH"     --runtime=nvidia     tmp
+ 2183  docker run --runtime=nvidia -v /tmp/.X11-unix:/tmp/.X11-unix -it --rm tmp
+ 2184  docker run -it --rm     -v /tmp/.X11-unix:/tmp/.X11-unix
+ 2185  docker ps
+ 2186  docker run -it --rm     -v /tmp/.X11-unix:/tmp/.X11-unix     -e DISPLAY=$DISPLAY     --runtime=nvidia     tmp
+ 2187  # nvidia-container-runtime
+ 2188  ENV NVIDIA_VISIBLE_DEVICES     ${NVIDIA_VISIBLE_DEVICES:-all}
+ 2189  ENV NVIDIA_DRIVER_CAPABILITIES \
+ 2190  # nvidia-container-runtime
+ 2191  ENV NVIDIA_VISIBLE_DEVICES     ${NVIDIA_VISIBLE_DEVICES:-all}
+ 2192  ENV NVIDIA_DRIVER_CAPABILITIES \
+ 2193  docker run -it --rm     -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix     --runtime=nvidia     tmp
+ 2194  docker run -it --rm     -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix     --runtime=nvidia --net=host     tmp
+ 2195  docker run -it --rm     -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix     --runtime=nvidia --network host     tmp
+ 2196  docker run -it --rm     -e DISPLAY     --runtime=nvidia \
+ 2197  docker run -it --rm     -e DISPLAY     --runtime=nvidia     --network host     --volume="$XAUTH:$XAUTH"     tmp
+ 2198  sudo docker run --runtime=nvidia -ti --rm -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix nbody
+ 2199  docke rpull nbody
+ 2200  docker pull nbody
+ 2201  docker login
+ 2202  docker pull nbody
+ 2203  xhost +si:localuser:root
+ 2204  docker run -it --rm     -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix     tmp
+ 2205  docker run -it --rm     --runtime=nvidia     -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix     tmp
+ 2206  xhost
+ 2207  docker run -it --rm     --runtime=nvidia     tmp
+ 2208  docker run -it --rm     --runtime=nvidia     -e DISPLAY     tmp
+ 2209  docker built -t tmp .
+ 2210  docker build -t tmp .
+ 2211  cat Dockerfile 
+ 2212  ls
+ 2213  cat Dockerfile 
+ 2214  ls -l
+ 2215  cat Dockerfile 
+ 2216  ls
+ 2217  cat Dockerfile 
+ 2218  cd libcudnn10/
+ 2219  ls
+ 2220  cat Dockerfile 
+ 2221  cd ..
+ 2222  cat Dockerfile 
+ 2223  docker build -t tmpmp .
+ 2224  ls
+ 2225  docker build -t tmp .
+ 2226  cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+ 2227  cat /usr/include/cudnn.h | grep CUDNN_MAJOR -A 2
+ 2228  cp -r /usr/src/cudnn_samples_v7/ $HOME
+ 2229  cd /tmp
+ 2230  ls
+ 2231  cd /usr
+ 2232  ls
+ 2233  cd src
+ 2234  ls
+ 2235  docker run -it --rm     --runtime=nvidia     tmp
+ 2236  docker run -it --rm     --runtime=nvidia     tmp -- python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1
+ 2237  docker run -it --rm     --runtime=nvidia     tmp python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1
+ 2238  docker run -it --rm     --runtime=nvidia     tmp -- python
+ 2239  docker run -it --rm     --runtime=nvidia     tmp /bin/bash
+ 2240  docker run -it --rm     --runtime=nvidia     tmp /bin/bash -c python
+ 2241  docker run -it --rm     --runtime=nvidia     tmp /bin/bash -c python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1
+ 2242  docker run -it --rm     --runtime=nvidia     tmp /bin/bash -c python gragh434t
+ 2243  cd ~/ML/projects/world_models/pytorch_1/world-models/
+ 2244  chmod +x run.sh 
+ 2245  docker built -t tmp .
+ 2246  docker build -t tmp .
+ 2247  docker run -it --rm     --runtime=nvidia     tmp run.sh
+ 2248  docker run -it --rm     --runtime=nvidia     tmp /bin/bash -e run.sh
+ 2249  docker run -it --rm     --runtime=nvidia     tmp /bin/bash run.sh
+ 2250  docker run -it --rm     --runtime=nvidia     tmp /bin/bash
+ 2251  docker run -it --rm     --runtime=nvidia     tmp /bin/bash -c run.sh
+ 2252  docker run -it --rm     --runtime=nvidia     tmp -- /bin/bash -c run.sh
+ 2253  docker run -it --rm     --runtime=nvidia     tmp -- /bin/bash
+ 2254  docker run -it --rm     --runtime=nvidia     tmp bash
+ 2255  docker run -it --rm     --runtime=nvidia     tmp run.sh
+ 2256  docker run -it --rm     --runtime=nvidia     tmp bash
+ 2257  docker build -t tmp .
+ 2258  docker run -it --rm     --runtime=nvidia     tmp
+ 2259  docker run -it --rm     --runtime=nvidia     tmp bash
+ 2260  docker build -t tmp .
+ 2261  docker run -it --rm     --runtime=nvidia     tmp
+ 2262  docker build -t tmp .
+ 2263  xhost +
+ 2264  docker run -it --rm     --runtime=nvidia     tmp
+ 2265  docker run -it --rm     --runtime=nvidia     tmp bash
+ 2266  docker run -it --rm     --runtime=nvidia     tmp -c
+ 2267  docker run -it --rm     --runtime=nvidia     tmp done
+ 2268  docker run -it --rm     --runtime=nvidia     tmp cat >/dev/null
+ 2269  docker run -it --rm     --runtime=nvidia     tmp read
+ 2270  docker run -it --rm     --runtime=nvidia     tmp sh
+ 2271  docker run -it --rm     --runtime=nvidia     tmp -- bash
+ 2272  docker run -it --rm --entrypoinut /bin/bash    --runtime=nvidia     tmp 
+ 2273  docker run -it --rm --entrypoint bash    --runtime=nvidia     tmp 
+ 2274  ssh --help
+ 2275  man ssh
+ 2276  sudo vim  /etc/ssh/sshd_config
+ 2277  xauth list $DISPLAY | awk '{print $3}'
+ 2278  echo $DISPLAY | sed 's/^[^:]*:\([^\.]\+\).*/\1/'
+ 2279  cho $DISPLAY | sed 's/^[^:]*\(.*\)/172.17.0.1\1/
+echo $DISPLAY | sed 's/^[^:]*\(.*\)/172.17.0.1\1/
+ 2280  echo $DISPLAY | sed 's/^[^:]*\(.*\)/172.17.0.1\1/
+echo $DISPLAY | sed 's/^[^:]*\(.*\)/172.17.0.1\1/
+ 2281  echo $DISPLAY | sed 's/^[^:]*\(.*\)/172.17.0.1\1/'
+ 2282  docker run -it --rm --entrypoinut /bin/bash    --runtime=nvidia     tmp 
+ 2283  docker run -it --rm --entrypoint bash    --runtime=nvidia     tmp 
+ 2284  docker run -it --rm --entrypoint bash    --runtime=nvidia -p6000:600    tmp 
+ 2285  docker run -it --rm --entrypoint bash    --runtime=nvidia -p6000:6000    tmp 
+ 2286  docker run -it --rm --entrypoint bash    --runtime=nvidia -p 5901:5901    tmp 
+ 2287  docker build -t tmp .
+ 2288  docker run -it --rm --entrypoint bash    --runtime=nvidia -p 5901:5901    tmp 
+ 2289  history > history.bkp
