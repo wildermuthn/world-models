@@ -3,7 +3,7 @@ steps:
     args:
       - --destination=gcr.io/$PROJECT_ID/carracer
       - --cache=true
-      - --cache-ttl=10000h
+      - --cache-ttl=10h
 options:
   machineType: 'N1_HIGHCPU_8'
 timeout: 50000s

@@ -13,4 +13,6 @@ conda activate ml
 #export DISPLAY=:20
 #Xvfb :20 -screen 0 1366x768x16 &
 #x11vnc -passwd password -display :20 -N -forever &
+
+vnc4server -geometry 1400x1000 -depth 24
 python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target-return 950 --display --max-workers 1

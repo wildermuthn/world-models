@@ -35,7 +35,7 @@ RUN apt-get update && \
         freeglut3-dev \
         libfontconfig1-dev \
         bzip2 \
-        x11vnc && \
+        vnc4server && \
     apt-get clean && \
     apt-get autoremove && \
     rm -rf /var/lib/apt/lists/*
@@ -59,5 +59,8 @@ RUN wget --quiet https://developer.download.nvidia.com/compute/machine-learning/
     dpkg -i /tmp/libcudnn7-dev_7.6.0.64-1+cuda10.0_amd64.deb
 
 RUN rm -rf /tmp/*
+
+WORKDIR /code
+
 ENTRYPOINT ["/bin/bash"]
 CMD ["run.sh"]

@@ -91,4 +91,4 @@ python traincontroller.py --logdir exp_dir --n-samples 12 --pop-size 36 --target
     2  apt-get update
     3  apt-get install vnc4server
     4  vnc4server -geometry 1400x1000 -depth 24
-    5  export DISPLAY=50d8bb1f1575:1
+    5  export DISPLAY=carracer:1
